@@ -1,10 +1,6 @@
 # Flutter Ship App
 
-This is the companion app for my course about Flutter in production.
 
-You can preview the app here:
-
-- [Flutter Ship App - web demo](https://bizz84.github.io/flutter_ship_app_web/)
 
 ### Note about Flutter Web
 
