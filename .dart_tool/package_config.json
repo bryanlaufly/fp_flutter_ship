@@ -260,6 +260,12 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "flutter_flavorizr",
+      "rootUri": "file:///Users/bryanlau/.pub-cache/hosted/pub.dev/flutter_flavorizr-2.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "flutter_launcher_icons",
       "rootUri": "file:///Users/bryanlau/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.13.1",
       "packageUri": "lib/",
@@ -842,7 +848,7 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-07-22T04:24:35.060153Z",
+  "generated": "2024-07-22T08:37:29.767718Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///Users/bryanlau/Tools/flutter",
