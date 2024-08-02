@@ -1,4 +1,5 @@
 //import 'package:accessibility_tools/accessibility_tools.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_ship_app/src/app_startup.dart';
@@ -9,6 +10,9 @@ import 'package:flutter_ship_app/src/utils/app_theme_mode.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  // * Initialize Firebase
+  await Firebase.initializeApp();
+
   final container = ProviderContainer();
   // * Preload SharedPreferences before calling runApp, as the AppStartupWidget
   // * depends on it in order to load the themeMode
